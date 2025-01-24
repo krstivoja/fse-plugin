@@ -58,6 +58,7 @@ function combine_theme_json_colors($theme_json)
         'version'  => 2,
         'settings' => array(
             'color' => array(
+                'defaultPalette' => false,
                 'palette' => $combined_colors,
             ),
         ),
